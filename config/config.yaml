@@ -1,0 +1,31 @@
+artifacts_config:
+  artifacts_dir: artifacts
+
+data_ingestion_config:
+  dataset_download_url: https://github.com/darshan0410/End-to-End-Book-Recommendation-System/raw/refs/heads/main/dataset.zip
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
+
+
+
+data_validation_config:
+  clean_data_dir: clean_data
+  serialized_objects_dir: serialized_objects
+  books_csv_file: Books.csv
+  ratings_csv_file: Ratings.csv
+
+
+
+data_transformation_config:
+  transformed_data_dir: transformed_data
+
+
+
+model_trainer_config:
+  trained_model_dir: trained_model
+  trained_model_name: model.pkl
+
+
+recommendation_config:
+  poster_api_url: https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US
