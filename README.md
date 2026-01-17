@@ -1,3 +1,3 @@
 # End-to-End-Book-Recommendation-System
 
-live link - https://end-to-end-book-recommendation-system.streamlit.app/
+live link - https://book-recommendation-system-madebydarshan.streamlit.app/
